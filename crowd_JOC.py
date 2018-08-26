@@ -6,10 +6,10 @@ Created on Sun Aug 26 18:37:34 2018
 """
 
 import matplotlib.pyplot as plt
-import statistics
+from scipy import stats
 estimate=[1,2,3,4,5,6,7,8,9,10,15,13,16,18,20,25,55,203,54,1,64,3062,620,650,650,2,6,2,320,60,32,20,320,32,3,32,60]
 estimate.sort()
-mean=statistics.mean(estimate)
+mean=stats.trim_mean(estimate,0.1)
 y=[5]*len(estimate)
 print('mean :',mean)
 plt.plot(estimate,y,'ro')
