@@ -11,7 +11,7 @@ print('choose a door and win a BMW',
 swap=0
 dont_swap=0
 y=0
-while y<10:
+while y<20:
     doors=[0]*3
     goatdoors=[]
     x=random.randint(0,2)
@@ -21,14 +21,10 @@ while y<10:
              continue
         else:
             goatdoors.append(i)
-    print(goatdoors)
-    print(doors)
     choice=int(input('enter your choice : '))
     door_open=random.choice(goatdoors)
-    print(door_open)
     while door_open==choice:
         door_open=random.choice(goatdoors)
-    print(door_open)
     print('door',door_open,'do not contain BMW')
     ch=input('do u want to change door y/n ?')
     if ch=='y':
