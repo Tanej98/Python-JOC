@@ -18,3 +18,6 @@ this is derivation of 14th table from 12th table
 # jumbledwords_JOC.py
 this is a jumbled word game played by two players(player1 and player2).
 first the program takes the name of both players and assigns a jumbled word to one after one .if we stop playing the it shows us the respective scores.
+
+# F_B_JOC.py
+this programm shows 'FIZZ' at multiple of 3 and 'BUZZ' at multiple of 5 and 'FIZZBUZZ' at multiple of 3 and 5
