@@ -21,3 +21,29 @@ first the program takes the name of both players and assigns a jumbled word to o
 
 # F_B_JOC.py
 this programm shows 'FIZZ' at multiple of 3 and 'BUZZ' at multiple of 5 and 'FIZZBUZZ' at multiple of 3 and 5
+
+# bubblesort.py
+this is program for bubblesort sorting algorithm
+
+# guessMovieName_JOC.py
+this is a game which hides the movie name and we have to guess the name.
+
+# magicsquare_JOC.py
+we have togive an odd number(n) to this program and it prints a square matrix in which the sum of rows,colums and diagonal is equal to 
+n*(n^2+1)/2
+
+# robort_path.py
+this program calculate the distance moved by robort we have to give the input as 
+UP x
+Down p
+RIGHT Y
+DOWn q
+
+# rock_paper_scissor.py
+this is our chaildhood game in different manner
+
+# swap_first&last_JOC.py
+this swaps the first and last digits of number
+
+# twin_paradox_JOC.py
+this is just showing the common in some random numbers produced in program
