@@ -39,6 +39,9 @@ Down p
 RIGHT Y
 DOWn q
 
+# Snakes&ladder.py
+it is snake and ladder game but not on board.
+
 # rock_paper_scissor.py
 this is our chaildhood game in different manner
 
